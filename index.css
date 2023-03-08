@@ -765,7 +765,7 @@ footer{
         font-family: 'Halant', serif;
         font-size: 14px;
         font-weight: 600;
-        line-height: 20px;
+        line-height: 21px;
         letter-spacing: 0.5px;
         text-align: left;
         color: #525252;
@@ -775,7 +775,7 @@ footer{
         font-family: 'Halant', serif;
         font-size: 12px;
         font-weight: 500;
-        line-height: 16px;
+        line-height: 18px;
         letter-spacing: 0.5px;
         text-align: left;
         color: #525252;  
@@ -785,7 +785,8 @@ footer{
         font-family: 'Manrope', serif;
         font-size: 16px;
         font-weight: 500;
-        line-height: 28px;   
+        line-height: 24px; 
+        letter-spacing: 0.5px;  
         text-align: justify;
         margin-bottom: 8px;
         color: #141414;
