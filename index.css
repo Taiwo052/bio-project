@@ -594,7 +594,7 @@ footer{
         width: 100%;
         position: relative;
         padding: 24px 8px 16px 8px;
-        min-height: 800px;
+        min-height: 750px;
         display: flex;
         gap: 48px;
         flex-direction: column;
@@ -615,13 +615,14 @@ footer{
     .hero_img1{
         display: block;
     }
-    .hero_img1 img{
-        height: 447px;
-        width: 398px;
-    }
     
     .hero_img{
         display: none;
+    }
+
+    .hero_img1 img{
+        height: 447px;
+        width: 374px;
     }
 
     .hero_copy h1{
