@@ -25,6 +25,10 @@ header{
     background-size: cover;
 }
 
+.logo1{
+    display: none;
+}
+
 .menu{
     display: none;
 }
@@ -82,22 +86,18 @@ header{
 
 .hero_container{
     position: relative;
-    width: 100%;
     height: 535px;
-    padding: 56px 120px 0 ;
+    padding: 56px 120px 0 120px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 100px;
     background-color: var(--secondary-color);
 }
-
 
 .hero_copy{
     display: flex;
     flex-direction: column;
-    width: 50%;
 }
 .hero_copy h1{
     font-family: 'Halant', serif;
@@ -573,9 +573,12 @@ footer{
         padding: 0 13px;
     }
 
-    .logo img{
-        height: 50px;
-        width: 195px;
+    .logo{
+        display: none;
+    }
+
+    .logo1{
+        display: block;
     }
 
     .menu{
@@ -592,7 +595,6 @@ footer{
         padding: 24px 8px 16px 8px;
         min-height: 800px;
         display: flex;
-        width: 100%;
         gap: 48px;
         flex-direction: column;
         justify-content: center;
@@ -602,6 +604,7 @@ footer{
     
     
     .hero_copy{
+        max-width: 300px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -644,7 +647,6 @@ footer{
     }
     
     .hero_copy p{
-        width: 400px;
         font-family: 'Manrope', serif;
         font-size: 16px;
         font-weight: 500;
@@ -670,10 +672,6 @@ footer{
         color: #ffffff;
         background-color: var(--primary-color);
     }
-
-    /* .about{
-        margin: 16px 0 39px;
-    } */
     
     .about_container{
         display: flex;
