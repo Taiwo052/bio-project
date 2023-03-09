@@ -591,6 +591,7 @@ footer{
     }
 
     .hero_container{
+        width: 100%;
         position: relative;
         padding: 24px 8px 16px 8px;
         min-height: 800px;
@@ -604,7 +605,7 @@ footer{
     
     
     .hero_copy{
-        max-width: 300px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -708,6 +709,7 @@ footer{
     }
     
     .about_copy p{
+        width: 100%;
         font-family: 'Manrope', serif;
         text-align: justify;
         margin-bottom: 16px;
