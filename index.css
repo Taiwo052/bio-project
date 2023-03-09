@@ -648,6 +648,7 @@ footer{
     }
     
     .hero_copy p{
+        width: 100%;
         font-family: 'Manrope', serif;
         font-size: 16px;
         font-weight: 500;
@@ -709,7 +710,6 @@ footer{
     }
     
     .about_copy p{
-        width: 100%;
         font-family: 'Manrope', serif;
         text-align: justify;
         margin-bottom: 16px;
@@ -804,6 +804,10 @@ footer{
         flex-direction: row;
         gap: 50px;
         margin-bottom: 16px;
+    }
+
+    .footer_icons{
+        gap: 16px
     }
 
     .footer_logo img{
