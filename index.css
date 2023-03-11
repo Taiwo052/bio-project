@@ -154,7 +154,7 @@ header{
 
 }
 
-.hero_img{
+.hero_img img{
     display: block;
     width: 100%;
 }
@@ -172,10 +172,6 @@ header{
     padding: 32px 120px;
     background-color:#F1F5FE;
 }
-
-/* .about_img img{
-    width: 100%;
-} */
 
 .about_copy_container{
     display: flex;
@@ -357,7 +353,7 @@ footer{
 
 @media only screen and (max-width: 1200px){
     header{
-        padding: 16px 60px;
+        /* padding: 16px 60px; */
         background-color: #ffffff;
     }
 
@@ -387,6 +383,21 @@ footer{
         border-radius: 8px;
     }
     
+    .hero_container{
+        position: relative;
+        height: 53%;
+        padding: 56px 120px 0 120px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: var(--secondary-color);
+    }
+    
+    .hero_copy{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
     .hero_copy h1{
         font-family: 'Halant', serif;
         font-size: 48px;
@@ -410,7 +421,7 @@ footer{
     }
     
     .hero_copy p{
-        width: 600px;
+        /* width: 600px; */
         font-family: 'Manrope', serif;
         font-size: 24px;
         font-weight: 500;
@@ -435,6 +446,16 @@ footer{
         text-align: center;
         color: #ffffff;
         background-color: var(--primary-color);
+    }
+    
+    .hero_img1{
+        display: none;
+    
+    }
+    
+    .hero_img img{
+        display: block;
+        width: 100%;
     }
     
     .about_copy h1{
@@ -592,6 +613,10 @@ footer{
 
 
 @media only screen and (max-width: 931px){
+    body{
+        background-color: #000000;
+    }
+
     header{
         padding: 0 13px;
     }
@@ -703,11 +728,11 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0 24px;
+        padding: 16px 24px;
         background-color: #ffffff;
     }
     .about{
-        margin: 32px 0;
+        margin: 0 0 16px;
     }
 
 
@@ -771,7 +796,7 @@ footer{
         flex-direction: column;
         padding: 16px 24px;
         justify-content: center;
-        background-color: none;
+        background-color:#ffffff;
     }
 
     .recommendation_copy1 h1{
